@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 
 
@@ -13,11 +12,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
 }
 .btn,
 .alert,
@@ -57,6 +56,12 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
 }
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
+}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -80,7 +85,7 @@ h6,
   font-family: 'Lora', serif;
 }
 .bg-primary {
-  background-color: #c0a375 !important;
+  background-color: #cccccc !important;
 }
 .bg-success {
   background-color: #90a878 !important;
@@ -95,8 +100,8 @@ h6,
   background-color: #f28281 !important;
 }
 .btn-primary {
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #cccccc;
+  border-color: #cccccc;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -105,14 +110,14 @@ h6,
 .btn-primary:active,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #a07e49;
-  border-color: #a07e49;
+  background-color: #a6a6a6;
+  border-color: #a6a6a6;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #a07e49 !important;
-  border-color: #a07e49 !important;
+  background-color: #a6a6a6 !important;
+  border-color: #a6a6a6 !important;
 }
 .btn-secondary {
   background-color: #bfcecb;
@@ -216,8 +221,8 @@ h6,
 }
 .btn-primary-outline {
   background: none;
-  border-color: #8e7041;
-  color: #8e7041;
+  border-color: #999999;
+  color: #999999;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
@@ -225,14 +230,14 @@ h6,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #cccccc;
+  border-color: #cccccc;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #c0a375 !important;
-  border-color: #c0a375 !important;
+  background-color: #cccccc !important;
+  border-color: #cccccc !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -335,7 +340,7 @@ h6,
   border-color: #f28281 !important;
 }
 .text-primary {
-  color: #c0a375 !important;
+  color: #cccccc !important;
 }
 .text-success {
   color: #90a878 !important;
@@ -362,36 +367,36 @@ h6,
   background-color: #f28281;
 }
 .btn-social {
-  border-color: #c0a375;
+  border-color: #cccccc;
 }
 .btn-social:hover {
-  background: #c0a375;
+  background: #cccccc;
 }
 .mbr-company .list-group-item.active .list-group-text {
-  color: #c0a375;
+  color: #cccccc;
 }
 .mbr-footer p a,
 .mbr-footer ul a {
-  color: #c0a375;
+  color: #cccccc;
 }
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #c0a375;
+  background: #cccccc;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #c0a375;
+  color: #cccccc;
 }
 .lead a,
 .lead a:hover {
-  color: #c0a375;
+  color: #cccccc;
 }
 .lead blockquote {
-  border-color: #c0a375;
+  border-color: #cccccc;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #e8ddcd;
+  color: #ffffff;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -411,10 +416,7 @@ h6,
 }
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
-  color: #c0a375;
-}
-.scrollToTop_wraper {
-  display: none;
+  color: #cccccc;
 }
 .form-control {
   padding: 0.9rem;
@@ -487,7 +489,7 @@ section.form .container {
 #menu-0 .dropdown-item:hover,
 #menu-0 .link:focus,
 #menu-0 .dropdown-item:focus {
-  color: #c0a375;
+  color: #cccccc;
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-menu {
@@ -514,11 +516,11 @@ section.form .container {
 }
 #menu-0 .bg-color.transparent.opened .link:hover,
 #menu-0 .bg-color.transparent.opened .link:focus {
-  color: #c0a375;
+  color: #cccccc;
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #cccccc!important;
 }
 #header4-1 .mbr-section-lead {
   text-align: right;

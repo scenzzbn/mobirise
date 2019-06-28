@@ -1,12 +1,12 @@
 {
   "settings": {
-    "name": "Site-06-28_2115",
+    "name": "scenzzbn",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#cccccc",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -14,19 +14,37 @@
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
+        "textFont": "Lora",
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
-        "isRtl": false
+        "isScrollToTopButton": true,
+        "isRtl": true
       },
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "customCookies": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "gdpr": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
+    "google-analytics": "",
     "uniqCompNum": 10,
-    "versionPublish": "4.10.3"
+    "versionPublish": "4.10.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -85,7 +103,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#cccccc!important"
             }
           },
           "_params": {
@@ -132,10 +150,10 @@
             "showButtons": false,
             "showArrow": false,
             "contentAlign": "right",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#a07e49",
             "bgVideoRadio": false,
             "bgVideo": {
